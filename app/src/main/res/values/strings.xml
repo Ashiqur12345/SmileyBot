@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Smart Doctor</string>
+    <string name="host">http://ashman.somee.com</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_repeat_password">Repeat Password</string>
+    <string name="action_sign_in">Log in</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="doctors_list">Doctors</string>
+    <string name="predicted_disease_list">Diseases</string>
+
+
+    <!--Not mine-->
+    <string name="your_name">Your Name: </string>
+    <string name="recipient_email">Recipient\'s Email Address: </string>
+    <string name="refersh_page_tooltip">Refresh Page</string>
+    <string name="campture_using_camera_tooltip">Capture Image Using Camera</string>
+    <string name="pick_from_gallery_tooltip">Pick Image From Gallery</string>
+    <string name="noSavedReport">Look\'s like you have not saved any report yet. Scan a report and save it for the future. You can also share your saved report via email.</string>
+    <string name="title_activity_tab">Home</string>
+    <string name="tab_text_1">Smiley Bot</string>
+    <string name="tab_text_2">OCR</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+</resources>

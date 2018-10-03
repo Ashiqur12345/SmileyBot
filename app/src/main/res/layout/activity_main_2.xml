@@ -1,0 +1,67 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:tools="http://schemas.android.com/tools"
+                                                 xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+                                                 android:paddingBottom="10dp"
+                                                 android:paddingLeft="10dp"
+                                                 android:paddingRight="10dp"
+                                                 android:paddingTop="10dp"
+                                                 tools:context="com.ranadepto.smartehr.MainActivity"
+>
+
+
+    <TextView
+            android:text="@string/noSavedReport"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:id="@+id/noSavedReport"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textStyle="bold"
+            android:textSize="18dp"
+
+            android:gravity="center" android:paddingBottom="50dp"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+    >
+    </android.support.v7.widget.RecyclerView>
+
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/refreshBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@android:drawable/ic_menu_rotate"
+            android:layout_gravity="bottom|left"
+            card_view:backgroundTint="@color/common_google_signin_btn_text_light_pressed"
+            android:tooltipText="@string/refersh_page_tooltip"
+    />
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/captureBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@android:drawable/ic_menu_camera"
+            android:layout_gravity="bottom|center"
+            card_view:backgroundTint="@color/common_google_signin_btn_text_light_pressed"
+            android:tooltipText="@string/campture_using_camera_tooltip"
+    />
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/galleryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_gravity="bottom|right"
+            card_view:backgroundTint="@color/common_google_signin_btn_text_light_pressed"
+            android:tooltipText="@string/pick_from_gallery_tooltip"
+    />
+
+</android.support.design.widget.CoordinatorLayout>
